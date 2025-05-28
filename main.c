@@ -42,7 +42,7 @@ int main()
     // print
     printf("%d\n%d\n%d\n%d\n%d\n%d\n", ones, twos, threes, fours, fives, sixes);
     printf("%d\n", sum);
-    printf("%f\n", (float)sum / 100);
+    printf("%0.1f\n", (float)sum / 100);
 
     return 0;
 }
